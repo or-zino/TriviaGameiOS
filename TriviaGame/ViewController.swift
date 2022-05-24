@@ -153,6 +153,7 @@ class ViewController: UIViewController {
         btn2.isHidden = true
         btn3.isHidden = true
         btn4.isHidden = true
+        data.shuffle()
         btn1.setTitle("Start Game", for: .normal)
         btn1.tintColor = UIColor.systemGreen
 
